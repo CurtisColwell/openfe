@@ -614,7 +614,7 @@ First, clone the ``openfe`` repository, and switch into its root directory::
 Next create a ``conda`` environment containing the requirements from the
 specification in that directory::
 
-  $ mamba create -f environment.yml
+  $ mamba env create -f environment.yml
 
 Then activate the ``openfe`` environment with::
 
