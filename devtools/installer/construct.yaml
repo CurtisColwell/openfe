@@ -5,7 +5,7 @@ license_file: ../../LICENSE
 
 channels:
   - conda-forge
-
+  - conda-forge/label/openfe_rc
 write_condarc: True
 keep_pkgs: True
 transmute_file_type: .conda
@@ -15,7 +15,7 @@ specs:
   - jupyterlab
   - mamba
   - notebook <7
-  - openfe=={{ environ["VERSION"] }}
+  - openfe==1.5.0a0 #{{ environ["VERSION"] }}
   - pip
   - pytest
   - pytest-xdist
